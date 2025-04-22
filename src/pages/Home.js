@@ -455,7 +455,7 @@ const Home = () => {
                   </div>
                   <div>
                     <h6 className="mb-0">Our Location</h6>
-                    <small>123 Healthcare Avenue, Medical District</small>
+                    <small>Christian Lane,Near HSR Layout ,Banglore</small>
                   </div>
                 </div>
                 
@@ -476,7 +476,7 @@ const Home = () => {
                   </div>
                   <div>
                     <h6 className="mb-0">Emergency Helpline</h6>
-                    <small>+1 (800) HOLISTIC</small>
+                    <small>7093144766</small>
                   </div>
                 </div>
               </div>
@@ -624,11 +624,11 @@ const Home = () => {
               <div className="footer-contact">
                 <p className="d-flex align-items-center mb-2">
                   <MapPin size={16} className="me-2 opacity-75" />
-                  <span>123 Healthcare Avenue, Medical District</span>
+                  <span>Christian Lane,Near HSR Layout ,Banglore</span>
                 </p>
                 <p className="d-flex align-items-center mb-2">
                   <Phone size={16} className="me-2 opacity-75" />
-                  <span>+1 (800) HOLISTIC</span>
+                  <span>7093144766</span>
                 </p>
                 <p className="d-flex align-items-center mb-0">
                   <Mail size={16} className="me-2 opacity-75" />
