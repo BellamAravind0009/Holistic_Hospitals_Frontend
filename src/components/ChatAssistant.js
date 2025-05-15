@@ -38,7 +38,7 @@ const ChatAssistant = () => {
         return;
       }
       
-      const response = await axios.get(`/api/chat-history/?session_id=${sid}`, {
+      const response = await axios.get(`https://aravind.myaddr.tools/api/chat-history/?session_id=${sid}`, {
         headers: {
           Authorization: `Bearer ${token}`
         }
@@ -79,7 +79,7 @@ const ChatAssistant = () => {
       }
       
       const response = await axios.post(
-        "http://localhost:8000/api/chat/",
+        "https://aravind.myaddr.tools/api/chat/",
         { 
           message: userMessage,
           session_id: sessionId 
